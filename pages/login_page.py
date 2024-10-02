@@ -1,5 +1,5 @@
 import sys
-sys.path.append("D:\\Python_Projects\\Vitaminoff_AQA_Project")
+sys.path.append("D:\\Python_Projects\\New_Project_Vit\\AQA_Testing_Selenium")
 # Путь к директории проекта
 
 from utilites.logger import Logger

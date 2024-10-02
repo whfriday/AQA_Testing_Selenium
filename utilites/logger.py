@@ -4,7 +4,8 @@ import os
 
 
 class Logger():
-    file_name = f"D:\\Python_Projects\\Vitaminoff_AQA_Project\\logs\\log_" + str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"
+    file_name = f"D:\\Python_Projects\\New_Project_Vit\\AQA_Testing_Selenium\\logs\\log_" + str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"
+    # Путь к папке logs, в которой будут сохраняться логи
 
     @classmethod
     def write_log_to_file(cls, data: str):

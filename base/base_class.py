@@ -30,7 +30,7 @@ class Base:
 
         now_date = datetime.datetime.now().strftime("%d.%m.%Y.%H.%M.%S")   
         name_screenshot = "screenshot " + now_date + ".png"     
-        self.driver.save_screenshot(r"D:\\Python_Projects\\Vitaminoff_AQA_Project\\screen\\" + name_screenshot) 
+        self.driver.save_screenshot(r"D:\\Python_Projects\\New_Project_Vit\AQA_Testing_Selenium\\screen\\" + name_screenshot) 
         #путь к папке screen, в которую будут сохраняться скриншоты
 
     
