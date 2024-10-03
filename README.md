@@ -80,12 +80,12 @@
 Проект написан на основе таких библиотек как [Selenium](https://www.selenium.dev/) и [Pytest](https://docs.pytest.org/en/stable/index.html). 
 Кроме того ещё используется библиотека *datetime* и инструмент для создания отчётов автотестирования - Allure.
 
-<img src="https://github.com/user-attachments/assets/26d2b330-3df5-4c83-a293-f88b12957d39" width="200" height="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Selenium_logo.svg/768px-Selenium_logo.svg.png" width="800" height="200">
 
 
 
 
-<img src="https://github.com/user-attachments/assets/b311ffb4-e101-49fc-97e7-09663770e566" width="200" height="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Pytest_logo.svg/900px-Pytest_logo.svg.png" width="200" height="200">
 
 
 
