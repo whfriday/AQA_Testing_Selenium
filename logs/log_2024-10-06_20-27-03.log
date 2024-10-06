@@ -1,0 +1,66 @@
+
+----------
+Test: tests/test_buy_product.py::test_buy_maxler (call)
+Start time: 2024-10-06 20:27:11.937222
+Start name method: authorization
+
+End time: 2024-10-06 20:28:45.250048
+End name method: authorization
+URL: https://vitaminof.ru/personal/
+
+----------
+
+----------
+Test: tests/test_buy_product.py::test_buy_maxler (call)
+Start time: 2024-10-06 20:28:45.251044
+Start name method: go_shoping_page
+
+End time: 2024-10-06 20:30:00.554466
+End name method: go_shoping_page
+URL: https://vitaminof.ru/catalog/geynery/
+
+----------
+
+----------
+Test: tests/test_buy_product.py::test_buy_maxler (call)
+Start time: 2024-10-06 20:30:00.555452
+Start name method: filter_products
+
+End time: 2024-10-06 20:30:34.222079
+End name method: filter_products
+URL: https://vitaminof.ru/catalog/maxler-special-mass-gainer-5430-g/
+
+----------
+
+----------
+Test: tests/test_buy_product.py::test_buy_maxler (call)
+Start time: 2024-10-06 20:30:34.223079
+Start name method: checkout_products_to_cart
+
+End time: 2024-10-06 20:30:50.462647
+End name method: checkout_products_to_cart
+URL: https://vitaminof.ru/basket/
+
+----------
+
+----------
+Test: tests/test_buy_product.py::test_buy_maxler (call)
+Start time: 2024-10-06 20:30:50.462647
+Start name method: check_cart_to_order
+
+End time: 2024-10-06 20:30:56.708598
+End name method: check_cart_to_order
+URL: https://vitaminof.ru/order/
+
+----------
+
+----------
+Test: tests/test_buy_product.py::test_buy_maxler (call)
+Start time: 2024-10-06 20:30:56.709603
+Start name method: confirm_order_info
+
+End time: 2024-10-06 20:30:58.208525
+End name method: confirm_order_info
+URL: https://vitaminof.ru/order/
+
+----------

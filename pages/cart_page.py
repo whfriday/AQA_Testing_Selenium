@@ -1,6 +1,10 @@
-import sys
-sys.path.append("D:\\Python_Projects\\New_Project_Vit\\AQA_Testing_Selenium") 
+import os
+project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Путь к директории проекта
+
+import sys
+sys.path.append(project_dir) 
+# Путь для импорта файлов проекта
 
 from utilites.logger import Logger
 from base.base_class import Base

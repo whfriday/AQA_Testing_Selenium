@@ -1,6 +1,10 @@
-import sys
-sys.path.append("D:\\Python_Projects\\Automatization_Project")
+import os
+project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Путь к директории проекта
+
+import sys
+sys.path.append(project_dir) 
+# Путь для импорта файлов проекта
 
 
 from pages.login_page import Login_page
@@ -17,7 +21,9 @@ import allure
 
 @allure.description("Test buy maxler")
 def test_buy_maxler(set_up):
-    """Тест по покупке 4шт гейнера бренда Maxler"""
+    """Тест по покупке товара бренда Maxler:
+    авторизация, выбор товара, добавление 4-х видов данного товара в корзину,
+    проверка соответствия товара в корзине"""
     
     options = Options()
     options.add_experimental_option("detach", True)

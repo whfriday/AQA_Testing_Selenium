@@ -4,7 +4,7 @@ import os
 
 
 class Logger():
-    file_name = f"D:\\Python_Projects\\New_Project_Vit\\AQA_Testing_Selenium\\logs\\log_" + str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"
+    file_name = f".\\logs\\log_" + str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"
     # Путь к папке logs, в которой будут сохраняться логи
 
     @classmethod
@@ -14,6 +14,7 @@ class Logger():
 
     @classmethod
     def add_start_step(cls, method: str):
+        
         test_name = os.environ.get('PYTEST_CURRENT_TEST')
 
         data_to_add = f"\n----------\n"

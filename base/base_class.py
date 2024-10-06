@@ -11,14 +11,14 @@ class Base:
 
 
     def get_current_url(self):
-        """Method get current URL"""
+        """Получения текущего URL"""
 
         get_url = self.driver.current_url
         print(f'Current URL: {get_url}')
 
 
     def assert_word(self, word, result):
-        """Method assert word"""
+        """Сравнение слова"""
 
         value_word = word.text
         assert value_word == result
@@ -26,16 +26,16 @@ class Base:
 
     
     def get_screenshot(self):
-        """Method do Screenshot"""
+        """Сделать скриншот"""
 
         now_date = datetime.datetime.now().strftime("%d.%m.%Y.%H.%M.%S")   
         name_screenshot = "screenshot " + now_date + ".png"     
-        self.driver.save_screenshot(r"D:\\Python_Projects\\New_Project_Vit\AQA_Testing_Selenium\\screen\\" + name_screenshot) 
+        self.driver.save_screenshot(r".\screen\\" + name_screenshot) 
         #путь к папке screen, в которую будут сохраняться скриншоты
 
     
     def assert_url(self, result):
-        """Method assert URL"""
+        """Сравнить URL"""
 
         get_url = self.driver.current_url
         assert get_url == result
