@@ -29,7 +29,7 @@ class Base:
         """Сделать скриншот"""
 
         now_date = datetime.datetime.now().strftime("%d.%m.%Y.%H.%M.%S")   
-        name_screenshot = "screenshot " + now_date + ".png"     
+        name_screenshot = "screenshot_" + now_date + ".png"     
         self.driver.save_screenshot(r".\screen\\" + name_screenshot) 
         #путь к папке screen, в которую будут сохраняться скриншоты
 
