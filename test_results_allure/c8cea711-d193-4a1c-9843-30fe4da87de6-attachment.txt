@@ -1,0 +1,43 @@
+
+Start Test
+Current URL: https://vitaminof.ru/
+Close Notification
+Click LK
+Input EMAIL
+Input Password
+Click LOGIN
+Current URL: https://vitaminof.ru/personal/
+Click Menu
+Click Sportpit
+Click Gayners
+Good value word
+Current URL: https://vitaminof.ru/catalog/geynery/
+Click All Brands
+Click Maxler Brand
+Click Confirm
+Input min price
+Input max price
+Click Confirm
+Current URL: https://vitaminof.ru/catalog/geynery/filter/price-base-from-4000-to-7000/brand-is-maxler/apply/
+Click Product link
+Current URL: https://vitaminof.ru/catalog/maxler-special-mass-gainer-5430-g/
+Product Name - Correct
+Product Price - Correct
+Click Add to cart #1
+Click Add to cart #2
+Click Add to cart #3
+Click Add to cart #4
+Click Cart button
+Current URL: https://vitaminof.ru/basket/
+Product Name - Correct
+Flavours - Correct
+Total Price - Correct
+Click Checkout
+Current URL: https://vitaminof.ru/order/
+Click Adress
+Input Adress
+Click metro station
+Click Botanich Sad
+Click Card
+
+Finish Test
